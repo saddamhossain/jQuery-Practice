@@ -1,0 +1,9 @@
+"customers":[
+
+    {"firstName":"Jason", "lastName":"Smith"},
+
+    {"firstName":"Joan", "lastName":"Smith"},
+
+    {"firstName":"Jennifer", "lastName":"Jones"}
+
+]

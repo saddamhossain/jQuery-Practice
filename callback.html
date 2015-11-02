@@ -1,0 +1,20 @@
+<!DOCUMENT html>
+<html>
+	<head>
+		<title> Jquery Evenet example </title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#btn").click(function(){
+					$("p").hide("slow",function(){
+						alert("sdsds");
+					});
+				});
+			});
+		</script>
+	</head>
+<body>
+	<input type = "button" id = "btn" value = "Hide"/>
+	<p> This is a paragraph. </p>
+</body>	
+</html>

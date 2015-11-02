@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Jquery </title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#btnone").click(function(){
+					$("p:first").hide();
+				});
+			});
+		</script>
+	</head>
+<body>
+	<h1> This is Heading one </h1>
+	
+	<p> This is a paragraph with no id and no class </p>
+	
+	<p id = "firstp"> This is first paragraph with id </p>
+	
+	<p class = "first_class"> This is a class paragraph example </p>
+	
+		<p class = "first_class"> This is a another class  paragraph example </p>
+
+	<input type = "button" id = "btnone" value = "Click Me"/>
+</body>	
+</html>

@@ -1,0 +1,28 @@
+<!DOCUMENT html>
+<html>
+	<head>
+		<title> Jquery Evenet example </title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("button").click(function(){
+					$.getJSON("demo.json",function(data){
+						
+				$.each(customers, function(index, data) {
+
+								$('#customers').append(data.firstName);
+
+});				
+					});	
+				});
+			});
+		</script>
+	</head>
+<body>
+<button> Get Json Data </button>
+<div>
+
+</div>
+</body>	
+</html>
+
